@@ -19,6 +19,6 @@
     $connection->query($query);
     $query = "SELECT * FROM $table";
     $resultObj = $connection->query($query);
-    $newURL = "http://localhost:8081/lab5/index.php";
+    $newURL = "./index.php";
     header('Location: '.$newURL);
 ?>
