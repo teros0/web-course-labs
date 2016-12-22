@@ -1,0 +1,97 @@
+table{
+    font-family: "Times New Roman", "Lucida Sans Unicode",  Sans-Serif;
+    font-size: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 550;
+    border: 2px solid grey;
+    clear: both;
+    float: left;
+    }
+table tr:nth-child(2n) {
+    background-color: #dadfe8;
+    border-left: 1px solid #a4a8ad;
+    border-right: 1px solid #a4a8ad;
+    }
+table tr:nth-child(2n) td {                    
+    border-left: 1px solid ;
+    border-right: 1px solid #a4a8ad;
+    color: #212121;
+    }
+td{
+    color: #212121;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px grey;
+    border-right: 1px grey;
+    width: 100px;
+    }
+th{
+    font-size: 18px;
+    background-color: #c4c9d1;
+    border: 1px solid grey;
+    color: #212121;
+    }
+caption{
+    font-size: 24px;
+    font-weight: bold;
+    color: #212121;
+    }
+body{
+    float: left;    
+    }
+form{
+    margin:10px;
+}
+span{
+    display: inline-block;
+    width: 100px;
+    font-family: "Georgia";
+}
+input{
+    margin: 5px;
+}
+
+.main-table{
+    display: flex;
+    margin: 0 auto;
+}
+.second-table{
+    display: flex;
+    clear: both;
+    float: left;
+    flex-direction: column;
+    flex: 1;
+}
+.item{
+    flex-grow: 1;
+}
+.item-form{
+    margin-top: auto;
+    display: inline-block;
+}
+.megaflex{
+    display: flex;    
+    clear: both;
+    float: left;
+    flex-direction: row;
+}
+.megaitem{
+    order: <integer>;
+    margin: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"].focus {
+  border: solid 1px #039;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+button{
+    margin: 5px;
+}
