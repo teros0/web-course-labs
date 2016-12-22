@@ -30,13 +30,6 @@
 
 <body>
 
-    <form action="explorer.php" method="get" accept-charset="utf-8">
-    <label>
-        <span>Введіть шлях до папки: </span>
-        <input type="text" name="path" required>
-    </label>
-    <input type="submit" name="submit">
-</form>
 
     <?php 
         $curr = $_GET['path'];
